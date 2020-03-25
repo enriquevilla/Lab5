@@ -1,0 +1,30 @@
+ul {
+    margin: 10px 10px;
+    padding: 0;
+    width: 500px;
+}
+
+ul > li {
+    list-style: none;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+ul > li > p {
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.check, .delete {
+    margin: 5px 3px;
+    margin-bottom: 15px;
+}
+
+.check {
+    margin-left: 20px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
